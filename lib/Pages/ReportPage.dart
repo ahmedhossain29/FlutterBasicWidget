@@ -20,13 +20,13 @@ class ReportPage extends StatelessWidget {
             bottom: TabBar(
               tabs: [
                 Tab(
-                  icon: Icon(Icons.call_missed),
+                  icon: Icon(Icons.call_made),
                 ),
                 Tab(
                   icon: Icon(Icons.call_received),
                 ),
                 Tab(
-                  icon: Icon(Icons.call_sharp),
+                  icon: Icon(Icons.call_missed),
                 ),
               ],
             ),

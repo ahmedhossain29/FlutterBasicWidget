@@ -24,6 +24,11 @@ class Card_gridView extends StatelessWidget {
                 color: Colors.blueAccent,
               ),
               Container(
+                child: Column(
+                  children: <Widget>[
+                    Text("This Is Text"),
+                  ],
+                ),
                 height: 200,
                 width: 200,
                 color: Colors.blueAccent,
