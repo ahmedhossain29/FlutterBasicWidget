@@ -39,7 +39,7 @@ class _HomeState extends State<Home> {
         items: [
           BottomNavigationBarItem(
               icon: Icon((Icons.home)),
-              title: Text("Home"),
+              label: "Home",
               backgroundColor: Colors.blueAccent),
           BottomNavigationBarItem(
               icon: Icon((Icons.local_activity_rounded)),
