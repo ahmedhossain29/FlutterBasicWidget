@@ -10,6 +10,9 @@ class ListTileWidget extends StatelessWidget {
             ListTile(
               title: Text('Example Of List Tile'),
               subtitle: Text(' Practice More List tile'),
+              trailing: Row(
+                children: [Icon(Icons.ac_unit), Icon(Icons.ac_unit_rounded)],
+              ),
               leading: CircleAvatar(
                 child: Icon(Icons.add_circle_outline),
               ),
