@@ -2,6 +2,8 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_application_1/Link.dart';
+import 'package:flutter_application_1/column_Row.dart';
 
 class Drawer_widget extends StatelessWidget {
   const Drawer_widget({Key? key}) : super(key: key);
@@ -30,16 +32,16 @@ class Drawer_widget extends StatelessWidget {
                       accountEmail: Text("hossainahmad76@gmail.com"),
                     ),
                   ),
-                  ListTile(
-                    leading: Icon(
-                      Icons.home,
-                      color: Colors.white,
-                    ),
-                    title: Text(
-                      "Home",
-                      textScaleFactor: 1.2,
-                      style: TextStyle(
+                  Container(
+                    child: TextButton.icon(
+                      onPressed: () {},
+                      icon: Icon(
+                        Icons.camera,
                         color: Colors.white,
+                      ),
+                      label: Text(
+                        "Take a Photo",
+                        style: TextStyle(color: Colors.white),
                       ),
                     ),
                   ),
