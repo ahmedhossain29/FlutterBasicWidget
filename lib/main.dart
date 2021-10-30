@@ -15,10 +15,11 @@ import 'package:flutter_application_1/containerWidget.dart';
 import 'package:flutter_application_1/listTile.dart';
 import 'package:flutter_application_1/listview_scrollview.dart';
 import 'package:flutter_application_1/mediaQueryWidget.dart';
+import 'package:flutter_application_1/pageview.dart';
 import 'package:flutter_application_1/safearea.dart';
 import 'package:flutter_application_1/sliverAppbar.dart';
 import 'package:flutter_application_1/statelesswidget.dart';
 
 void main() {
-  runApp(PopUp_Widget());
+  runApp(PageView_Widget());
 }
