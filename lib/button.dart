@@ -1,10 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-
-void main(List<String> args) {
-  runApp(ButtonWidget());
-}
+import 'package:flutter_application_1/Pages/page1.dart';
 
 class ButtonWidget extends StatelessWidget {
   @override
@@ -62,7 +59,6 @@ class ButtonWidget extends StatelessWidget {
                 ),
               ),
             ),
-            
           ],
         ),
       ),
