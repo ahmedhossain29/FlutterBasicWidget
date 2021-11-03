@@ -8,6 +8,7 @@ import 'package:flutter_application_1/ImageWidget.dart';
 import 'package:flutter_application_1/Link.dart';
 import 'package:flutter_application_1/PopUp.dart';
 import 'package:flutter_application_1/TabBarWidget.dart';
+import 'package:flutter_application_1/TostMessage.dart';
 import 'package:flutter_application_1/appBar_textWidget.dart';
 import 'package:flutter_application_1/button.dart';
 import 'package:flutter_application_1/card_gridView.dart';
@@ -25,5 +26,5 @@ import 'package:flutter_application_1/snackbar.dart';
 import 'package:flutter_application_1/statelesswidget.dart';
 
 void main() {
-  runApp(SnackBar_Widget());
+  runApp(TostMessage());
 }
