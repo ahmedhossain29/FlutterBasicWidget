@@ -10,11 +10,25 @@ class ImageWidget extends StatelessWidget {
           body: Column(
         children: <Widget>[
           Container(
-            child: Image.asset("images/daimond.jpg"),
+            color: Colors.red,
+            height: 300,
+            width: 300,
+            child: Image.asset(
+              "images/daimond.jpg",
+              height: 100,
+              fit: BoxFit.none,
+            ),
           ),
           Container(
+            color: Colors.red,
+            height: 300,
+            width: 300,
             child: Image.network(
-                "https://tech.pelmorex.com/wp-content/uploads/2020/10/flutter.png"),
+              "https://tech.pelmorex.com/wp-content/uploads/2020/10/flutter.png",
+              height: 200,
+              fit: BoxFit.fitHeight,
+              width: 200,
+            ),
           ),
         ],
       )),
